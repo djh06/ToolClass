@@ -24,6 +24,7 @@
 		93732E4017A90B2C00F809BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93732E1817A90B2C00F809BE /* Foundation.framework */; };
 		93732E4817A90B2C00F809BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93732E4617A90B2C00F809BE /* InfoPlist.strings */; };
 		93732E4B17A90B2C00F809BE /* ToolClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93732E4A17A90B2C00F809BE /* ToolClassTests.m */; };
+		93732E5717A90D0C00F809BE /* NSString+NSStringTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 93732E5617A90D0C00F809BE /* NSString+NSStringTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		93732E4717A90B2C00F809BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93732E4917A90B2C00F809BE /* ToolClassTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolClassTests.h; sourceTree = "<group>"; };
 		93732E4A17A90B2C00F809BE /* ToolClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolClassTests.m; sourceTree = "<group>"; };
+		93732E5517A90D0C00F809BE /* NSString+NSStringTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+NSStringTools.h"; path = "tools/NSString+NSStringTools.h"; sourceTree = "<group>"; };
+		93732E5617A90D0C00F809BE /* NSString+NSStringTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+NSStringTools.m"; path = "tools/NSString+NSStringTools.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 		93732E1C17A90B2C00F809BE /* ToolClass */ = {
 			isa = PBXGroup;
 			children = (
+				93732E5417A90C0A00F809BE /* tools */,
 				93732E2517A90B2C00F809BE /* UMAppDelegate.h */,
 				93732E2617A90B2C00F809BE /* UMAppDelegate.m */,
 				93732E2E17A90B2C00F809BE /* UMViewController.h */,
@@ -161,6 +165,15 @@
 				93732E4617A90B2C00F809BE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93732E5417A90C0A00F809BE /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				93732E5517A90D0C00F809BE /* NSString+NSStringTools.h */,
+				93732E5617A90D0C00F809BE /* NSString+NSStringTools.m */,
+			);
+			name = tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 				93732E2317A90B2C00F809BE /* main.m in Sources */,
 				93732E2717A90B2C00F809BE /* UMAppDelegate.m in Sources */,
 				93732E3017A90B2C00F809BE /* UMViewController.m in Sources */,
+				93732E5717A90D0C00F809BE /* NSString+NSStringTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
