@@ -7,6 +7,8 @@
 //
 
 #import "NSString+NSStringTools.h"
+#import "NSData+NSDataTools.h"
+
 #import <CommonCrypto/CommonHMAC.h>
 
 @implementation NSString (NSStringTools)

@@ -25,6 +25,7 @@
 		93732E4817A90B2C00F809BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93732E4617A90B2C00F809BE /* InfoPlist.strings */; };
 		93732E4B17A90B2C00F809BE /* ToolClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93732E4A17A90B2C00F809BE /* ToolClassTests.m */; };
 		93732E5717A90D0C00F809BE /* NSString+NSStringTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 93732E5617A90D0C00F809BE /* NSString+NSStringTools.m */; };
+		93EEF7FC17AA445900C5B9BC /* NSData+NSDataTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EEF7FB17AA445900C5B9BC /* NSData+NSDataTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		93732E4A17A90B2C00F809BE /* ToolClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolClassTests.m; sourceTree = "<group>"; };
 		93732E5517A90D0C00F809BE /* NSString+NSStringTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+NSStringTools.h"; path = "tools/NSString+NSStringTools.h"; sourceTree = "<group>"; };
 		93732E5617A90D0C00F809BE /* NSString+NSStringTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+NSStringTools.m"; path = "tools/NSString+NSStringTools.m"; sourceTree = "<group>"; };
+		93EEF7FA17AA445900C5B9BC /* NSData+NSDataTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+NSDataTools.h"; path = "tools/NSData+NSDataTools.h"; sourceTree = "<group>"; };
+		93EEF7FB17AA445900C5B9BC /* NSData+NSDataTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+NSDataTools.m"; path = "tools/NSData+NSDataTools.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 			children = (
 				93732E5517A90D0C00F809BE /* NSString+NSStringTools.h */,
 				93732E5617A90D0C00F809BE /* NSString+NSStringTools.m */,
+				93EEF7FA17AA445900C5B9BC /* NSData+NSDataTools.h */,
+				93EEF7FB17AA445900C5B9BC /* NSData+NSDataTools.m */,
 			);
 			name = tools;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				93732E2717A90B2C00F809BE /* UMAppDelegate.m in Sources */,
 				93732E3017A90B2C00F809BE /* UMViewController.m in Sources */,
 				93732E5717A90D0C00F809BE /* NSString+NSStringTools.m in Sources */,
+				93EEF7FC17AA445900C5B9BC /* NSData+NSDataTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +486,7 @@
 				93732E5017A90B2C00F809BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93732E5117A90B2C00F809BE /* Build configuration list for PBXNativeTarget "ToolClassTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +495,7 @@
 				93732E5317A90B2C00F809BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
