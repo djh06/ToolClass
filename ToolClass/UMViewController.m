@@ -8,6 +8,8 @@
 
 #import "UMViewController.h"
 
+#import "NSString+NSStringTools.h"
+
 @interface UMViewController ()
 
 @end
@@ -17,6 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSString *str = @"abcdef";
+    
+    NSLog(@"---------(%d)------------",[str indexOf:@"bcd" from:1]);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
